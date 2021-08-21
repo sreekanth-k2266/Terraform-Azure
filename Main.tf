@@ -3,7 +3,7 @@ data "aws_availability_zones" "availability_zones" {
   state = "available"
 }
 
-#resource to create VPC
+#resource to create the VPC
 resource "aws_vpc" "vpc" {
   cidr_block                       = var.cidr_block
   enable_dns_hostnames             = true
