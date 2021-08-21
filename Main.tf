@@ -1,4 +1,4 @@
-#getting all availability zones
+#getting all the availability zones
 data "aws_availability_zones" "availability_zones" {
   state = "available"
 }
